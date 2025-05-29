@@ -5,6 +5,11 @@
 
 # Bayesian Network for Medical Diagnosis
 
+## Introduction to Bayesian Networks
+Bayesian Networks (BNs) are probabilistic graphical models representing a set of variables and their conditional dependencies via a directed acyclic graph (DAG). They combine principles from graph theory and probability theory to model uncertainty in complex domains. Each node in the graph corresponds to a random variable, and the edges indicate conditional dependencies. BNs enable reasoning under uncertainty by encoding joint probability distributions efficiently.
+
+Bayesian Networks are widely used in artificial intelligence, especially for decision-making, diagnosis, and prediction, where information is incomplete or uncertain. They support inference, which involves computing the probability of unknown variables given observed evidence, thus assisting in intelligent decision support.
+
 ## 1. Problem Being Solved
 This project models a simplified medical diagnosis system that estimates the probability of a patient having a disease based on observed symptoms and test results. The goal is to perform probabilistic reasoning under uncertainty using Bayesian Networks.
 
